@@ -151,10 +151,14 @@ p{
     margin-top: 30px;
 }
 
+main{
+    clear: both;
+}
 
 #titulo{
     background-image: url(./img/sobre-background.jpg);
     padding: 10px;
+    display: block;
 }
 
 #centro-distribuicao{
