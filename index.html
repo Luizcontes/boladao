@@ -2,13 +2,16 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Mirror Fashion</title>
+        <meta name="viewport"content="width=device-width">
+        
+        <title>Página Inicial Mirror Fashion</title>
         
         <link rel="stylesheet" href="estilos_main.css">
     </head>
+    
     <body>
         <header class="container">
-            <h1><img src="img/logo.png" alt="Logo da Mirror Fashion"></h1>
+            <h1><a href="index.html"><img src="img/logo.png" alt="Logo da Mirror Fashion"></a></h1>
             
             <p class="sacola">
                 Nenhum item na sacola de compras
@@ -40,7 +43,15 @@
 
                     <nav>
                         <ul>
-                            <li><a href="#">Blusas e Camisas</a></li>
+                            <li>
+                                <a href="#">Blusas e Camisas</a>
+                                <ul>
+                                    <li><a href="#">Manga curta</a></li>
+                                    <li><a href="#">Manga comprida</a></li>
+                                    <li><a href="#">Camisola social</a></li>
+                                    <li><a href="#">Camisola casual</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#">Calças</a></li>
                             <li><a href="#">Saias</a></li>
                             <li><a href="#">Vestidos</a></li>
@@ -67,6 +78,7 @@
                             <a href="produto.html">
                                 <figure>
                                     <img src="img/produtos/miniatura1.png" alt="miniatura1">
+                                    <figcaption>Fuzz Cardigan por €20</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -74,6 +86,7 @@
                             <a href="produto.html">
                                 <figure>
                                     <img src="img/produtos/miniatura2.png" alt="miniatura2">
+                                    <figcaption>T-shirt purpura por €8</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -81,13 +94,17 @@
                             <a href="produto.html">
                                 <figure>
                                     <img src="img/produtos/miniatura3.png" alt="miniatura3">
+                                    <figcaption>Fuzz Cardigan por €20</figcaption>
                                 </figure>
+
+
                             </a>
                         </li>
                         <li>
                             <a href="produto.html">
                                 <figure>
                                     <img src="img/produtos/miniatura4.png" alt="miniatura4">
+                                    <figcaption>Casaco tinto por €20</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -95,6 +112,7 @@
                             <a href="produto.html">
                                 <figure>
                                     <img src="img/produtos/miniatura5.png" alt="miniatura5">
+                                    <figcaption>Fuzz Cardigan por €20</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -102,6 +120,7 @@
                             <a href="produto.html">
                                 <figure>
                                     <img src="img/produtos/miniatura6.png" alt="miniatura6">
+                                    <figcaption>Vestido rosa por €20</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -116,6 +135,7 @@
                             <a href="produto.html">
                                 <figure>
                                     <img src="img/produtos/miniatura7.png" alt="miniatura7">
+                                    <figcaption>Fuzz Cardigan por €20</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -123,6 +143,7 @@
                             <a href="produto.html">
                                 <figure>
                                     <img src="img/produtos/miniatura8.png" alt="miniatura8">
+                                    <figcaption>T-shirt azulada por €20</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -130,6 +151,7 @@
                             <a href="produto.html">
                                 <figure>
                                     <img src="img/produtos/miniatura9.png" alt="miniatura9">
+                                    <figcaption>Camisa vermelha por €20</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -137,6 +159,7 @@
                             <a href="produto.html">
                                 <figure>
                                     <img src="img/produtos/miniatura10.png" alt="miniatura10">
+                                    <figcaption>Camisola rosa por €20</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -144,6 +167,7 @@
                             <a href="produto.html">
                                 <figure>
                                     <img src="img/produtos/miniatura11.png" alt="miniatura11">
+                                    <figcaption>Calções verdes por €20</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -151,6 +175,7 @@
                             <a href="produto.html">
                                 <figure>
                                     <img src="img/produtos/miniatura12.png" alt="miniatura12">
+                                    <figcaption>Camisa azul por €20</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -158,12 +183,17 @@
                 </section>
             </div>
         </header>
-
-        <div id="rodape">
-            <img src="img/logo-rodape.png" alt="Logo da Mirror Fashion">
-
-            &copy; Copyright Mirror Fashion
-        </div>
+        
+        <footer>
+            <div class="container">
+                <img src="img/logo-rodape.png" alt="Logo da Mirror Fashion">
+                <ul class="social">
+                    <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+                    <li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+                    <li><a href="http://plus.google.com/mirrorfashion">Google</a></li>
+                </ul>
+            </div>
+        </footer>
 
     </body>
 </html>
